@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ContactUs</title>
+   <link rel="stylesheet" href="../main.css">
+   <link rel="stylesheet" href="../css/contact.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+  <header>
+    <ul class="Favicons">
+     <li><a href="https://www.facebook.com/Greekin-Out-178764729381099/"><i class="fa fa-facebook-square"></i></a></li>
+     <li><a href="HTML/ContactUs.html"><i class="fa fa-envelope" ></i></a></li>
+     <img src="../Images/logo.png" id="logoHeader" alt="">
+     <li> <a href="tel:843-996-0543"><i class="fa fa-phone" ></i></a></li>
+     <li> <a href="https://www.instagram.com/greekinoutsc/"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+
+     <ul class="hrefs">
+      <li><a href="../index.html"><h3>Home</h3></a></li>
+      <li><a href="calendar.html"><h3>Calendar</h3></a></li>
+      <li><a href="#"><h3>Contact Us</h3></a></li>
+      <li><a href="Menu.html"><h3>Menu</h3></a></li>
+      <li><a href="location.html"><h3>Location</h3></a></li>
+      <li><a href="gallery.html"><h3>Gallery</h3></a></li>
+     </ul>
+
+  </header>
+  <body>
+   <form id="contact-form" action="https://formspree.io/greekinoutsc@gmail.com" method="POST">
+
+    <div class="info1">
+     <input id="inputFName" type="text" name="name" placeholder="First Name" required>
+     <input id="inputLName" type="text" name="name" placeholder="Last Name" required>
+     <input id="phone" type="tel" name="phone" value="" placeholder="Phone" required>
+     <input id="inputEmail" type="text" name="_replyto" placeholder="Email" required>
+    </div>
+
+    <div class="info2">
+     <select name="event" id="inputActivity">
+      <option value="select event"> Event Type</option>
+      <option value="Private Party">Private Party</option>
+      <option value="Wedding/Rehersel Dinner">Wedding/Rehearsal Dinner</option>
+      <option value="Birthday">Birthday</option>
+      <option value="Corparate Event">Corporate Event</option>
+      <option value="Graduation">Graduation</option>
+      <option value="Festival">Festival</option>
+      <option value="other">Other</option>
+     </select>
+     <input  id="inputDate" type="date" name="Date" value="" placeholder="Event Date" required></input>
+     <input  id="inputGuests" type="number" name="Guests" value="" placeholder="No. of Guests" required>
+    </div>
+
+    <div class="info3">
+     <textarea name="message" rows="8" cols="80" id="inputMessage" placeholder="Additional Comments"></textarea>
+    </div>
+
+    <div class="info4">
+     <button id="send" type="submit" value="Send" >Send</button>
+    </div>
+
+     <input type="hidden" name="_next" value="//brittanyandoresti.github.io/GreekinOut/HTML/ThankYou.html" />
+
+   </form>
+
+    <h6>website by OPA Creations Group</h6>
+
+ <script type="text/javascript"src="../JS/contact.js"></script>
+
+ </body>
+</html>
