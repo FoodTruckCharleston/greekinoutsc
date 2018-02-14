@@ -38,27 +38,13 @@ ul, a{
  color: black;
 }
 
-.story{
- margin-left: 7vw;
- margin-top: 3vh;
- margin-bottom: 3vh;
- background-color: #Dbd6d6;
- height: 15vh;
- width: 30vw;
- border-radius:  100px / 120px 10px;;
- padding: 50px;
- padding-top: 5px;
-
-}
-
 body{
  margin: 0;
  padding: 0;
- background-image: url("Images/santorini.jpg");
+ background-image: url("Images/Santorini.jpg");
  height: 100vh;
  width: 100vw;
  background-repeat: no-repeat;
- position: fixed;
  background-size: cover;
 }
 h6 {
