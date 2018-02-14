@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "grec";
+  src: url("fonts/Optio_0.ttf");
+}
+
 header {
  margin: 0;
  padding: 0;
@@ -26,6 +31,8 @@ i{
 }
 
 .hrefs{
+ padding-top: 1vh;
+ font-family: "grec";
  font-size: 25px;
  display: flex;
  justify-content: space-around;

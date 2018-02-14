@@ -9,10 +9,14 @@
  padding: 50px;
  padding-top: 5px;
 }
-#one{
- z-index: 1;
- margin-left: 3vw;
-}
-body{
+.foodmenu{
  overflow: scroll;
+ position: relative;
+ margin-left: 10vw;
+ margin-right: 10vw;
+ /* width: 90vw; */
+ height: 60vh;
+}
+img{
+ width: 80vw;
 }
