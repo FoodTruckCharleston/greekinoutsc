@@ -6,7 +6,43 @@
  height: 15vh;
  width: 30vw;
  border-radius:  100px / 120px 10px;;
- padding: 50px;
+ padding: 60px;
  padding-top: 5px;
+}
 
+.merch{
+ margin-left: 50vw;
+ margin-top: -15vh;
+ background-color: #Dbd6d6;
+ height: 35vh;
+ width: 30vw;
+ border-radius:  100px / 120px 10px ;;
+ padding: 35px;
+ padding-top: 5px;
+}
+.test{
+ display: flex;
+ justify-content: space-around;
+ height: 80%;
+ width: 100%;
+}
+#shirt{
+ margin-left: 50px;
+ border-radius: 20px;
+ height: 80%;
+ width: 80%;
+}
+#TSbutton h3{
+ background-color: white;
+ border-radius: 20px;
+ text-align: center;
+ padding: 20px;
+
+}
+.test a {
+ padding-top: 2vh;
+ padding-left: 2vw;
+}
+h1{
+ text-align: center;
 }
