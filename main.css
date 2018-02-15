@@ -37,6 +37,7 @@ i{
  display: flex;
  justify-content: space-around;
  background-color: #Dbd6d6;
+ border-radius: 10% / 50%;
 }
 ul, a{
  margin: 0;

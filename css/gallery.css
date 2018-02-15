@@ -1,0 +1,44 @@
+.row1, .row2{
+ overflow: scroll;
+ position: relative;
+ margin-left: 5vw;
+ margin-right: 5vw;
+ width: 90vw;
+ height: 30vh;
+ margin-bottom: 1vh;
+}
+
+#buffChick{
+ height: 50vh;
+ width: 23vw;
+}
+#truck1{
+ padding-left: 10px;
+ padding-right: 10px;
+ height: 50vh;
+ width: 40vw;
+}
+#gyro{
+ height: 50vh;
+ width: 23vw;
+}
+
+#chickSouv{
+ padding-left: 10px;
+ padding-right: 10px;
+ height: 50vh;
+ width: 40vw;
+}
+#hummus{
+ /* padding: 10px; */
+ height: 50vh;
+ width: 23vw;
+}
+#steackFlat{
+ height: 50vh;
+ width: 23vw;
+}
+
+body img{
+
+}
