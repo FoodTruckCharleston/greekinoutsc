@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>location</title>
+   <link rel="stylesheet" href="../main.css">
+   <link rel="stylesheet" href="../css/location.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+  <header>
+    <ul class="Favicons">
+     <li><a href="https://www.facebook.com/Greekin-Out-178764729381099/"><i class="fa fa-facebook-square"></i></a></li>
+     <li><a href="html/contact.html"><i class="fa fa-envelope" ></i></a></li>
+     <img src="../Images/logo.png" id="logoHeader" alt="">
+     <li> <a href="tel:843-996-0543"><i class="fa fa-phone" ></i></a></li>
+     <li> <a href="https://www.instagram.com/greekinoutsc/"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+
+     <ul class="hrefs">
+      <li><a href="../index.html"><h3>Home</h3></a></li>
+      <li><a href="calendar.html"><h3>Calendar</h3></a></li>
+      <li><a href="contact.html"><h3>Contact Us</h3></a></li>
+      <li><a href="menu.html"><h3>Menu</h3></a></li>
+      <li><a href="#"><h3>Location</h3></a></li>
+      <li><a href="gallery.html"><h3>Gallery</h3></a></li>
+     </ul>
+  </header>
+
+  <body>
+
+   <h1>My Google Map</h1>
+    <div id="map"></div>
+
+   <script>
+
+    function initMap() {
+     // map options
+     var options = {
+      zoom:8,
+      center:{lat:32.7765, lng:-79.9311}
+     }
+
+      // new map
+      var map = new google.maps.Map(document.getElementById('map'),options);
+
+
+      // add marker
+      var marker = new google.maps.Marker({
+       position:{lat:32.854622, lng:-79.974808},
+       map:map,
+       // icon:
+       // src="../Images/logoSmall.png"
+       // src='../Images/truck1.png'
+      });
+
+      // info widow
+      var infoWindow = new google.maps.InfoWindow({
+       content: "<img src='../Images/logoSmall.png'>"
+      });
+
+      marker.addListener('click',function() {
+       infoWindow.open(map,marker);
+
+      })
+
+    }
+
+   </script>
+
+
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVYjnv6jTRnr3A--gXcALwKKHe-cYLzI&callback=initMap"
+  async defer></script>
+
+  </body>
+</html>
