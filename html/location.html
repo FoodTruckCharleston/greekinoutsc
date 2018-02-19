@@ -29,48 +29,17 @@
 
   <body>
 
-   <h1>My Google Map</h1>
     <div id="map"></div>
 
-   <script>
 
-    function initMap() {
-     // map options
-     var options = {
-      zoom:8,
-      center:{lat:32.7765, lng:-79.9311}
-     }
+<script type="text/javascript"src="../JS/location.js">
 
-      // new map
-      var map = new google.maps.Map(document.getElementById('map'),options);
-
-
-      // add marker
-      var marker = new google.maps.Marker({
-       position:{lat:32.854622, lng:-79.974808},
-       map:map,
-       // icon:
-       // src="../Images/logoSmall.png"
-       // src='../Images/truck1.png'
-      });
-
-      // info widow
-      var infoWindow = new google.maps.InfoWindow({
-       content: "<img src='../Images/logoSmall.png'>"
-      });
-
-      marker.addListener('click',function() {
-       infoWindow.open(map,marker);
-
-      })
-
-    }
-
-   </script>
-
-
+</script>
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVYjnv6jTRnr3A--gXcALwKKHe-cYLzI&callback=initMap"
   async defer></script>
+
+
+  <h6>website by OPA Creations Group</h6>
 
   </body>
 </html>
