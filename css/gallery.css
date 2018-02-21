@@ -1,3 +1,11 @@
+@media only screen and(max-device-width: 480px)
+{
+ #buffChick{
+  width: 100vw;
+ }
+
+
+}
 .row1, .row2{
  overflow: scroll;
  position: relative;
@@ -9,7 +17,6 @@
  display: flex;
  justify-content: space-around;
 }
-
 #steackFlat{
  height: 30vh;
  width: 20vw;
@@ -24,7 +31,6 @@
  height: 30vh;
  width: 20vw;
 }
-
 #hummus{
  /* padding: 10px; */
  height: 40vh;
@@ -39,8 +45,4 @@
 #buffChick{
  height: 40vh;
  width: 20vw;
-}
-
-body img{
-
 }
