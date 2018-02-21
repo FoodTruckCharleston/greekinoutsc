@@ -1,11 +1,4 @@
-@media only screen and(max-device-width: 480px)
-{
- #buffChick{
-  width: 100vw;
- }
 
-
-}
 .row1, .row2{
  overflow: scroll;
  position: relative;
