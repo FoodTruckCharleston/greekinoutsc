@@ -1,4 +1,27 @@
+/* v2 */
 
+.v2{
+ overflow: scroll;
+ position: relative;
+ margin-left: 10vw;
+ margin-right: 10vw;
+ width: 90vw;
+ height: 60vh;
+}
+img{
+ width: 80vw;
+ padding: 10px;
+}
+
+
+
+
+
+
+
+/* v1  */
+
+/*
 .row1, .row2{
  overflow: scroll;
  position: relative;
@@ -28,7 +51,7 @@
  /* padding: 10px; */
  height: 40vh;
  width: 20vw;
-}
+/* }
 #chickSouv{
  padding-left: 10px;
  padding-right: 10px;
@@ -38,4 +61,4 @@
 #buffChick{
  height: 40vh;
  width: 20vw;
-}
+} */ */
