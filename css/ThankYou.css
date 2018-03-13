@@ -1,3 +1,14 @@
+/* @media only screen and (max-width: 481px) {
+ h1, p, {
+  font-size: 40px;
+  color: red;
+ }
+
+
+} */
+
+
+
 @font-face {
   font-family: "grec";
   src: url("../fonts/Optio_0.ttf");
