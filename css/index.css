@@ -14,12 +14,12 @@ h1{
 }
 .VVideo video{
  margin-left: 55vw;
- margin-top: -20vh;
+ margin-top: -40vh;
  border-radius:  100px / 120px 10px;;
-
-
 }
-
+.ex {
+ padding-left: 15%;
+}
 
 
 
